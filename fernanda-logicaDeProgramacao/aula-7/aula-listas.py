@@ -1,60 +1,59 @@
 ## Conceito Básico e Estrutura
 
-# Listas (ou list em Python) são um tipo de variável que permite armazenar uma coleção ordenada de vários valores.
+# Uma lista é uma coleção que guarda vários valores em uma única variável. Elas são a forma mais comum e flexível de armazenar coleções de dados na linguagem Python.
+ # Criação: Para criar uma lista, você usa o sinal de igual (=) e coloca os itens entre colchetes ([]), separados por vírgulas.
 
-# Conteúdo: Uma lista pode conter zero ou mais elementos. Esses elementos podem ser do mesmo tipo ou de tipos diferentes, incluindo números, strings, e até mesmo outras listas.
+frutas = ["maçã", "banana", "uva"] # lista de strings
+numeros = [10, 20, 30, 40] # lista de números
+vazia = [] # lista vazia
+print(frutas, numeros, vazia)
 
-# Mutabilidade: Listas são mutáveis, o que significa que você pode alterar, adicionar ou remover elementos depois que a lista é criada
+## Acessando e Modificando Elementos
 
-# Criação: Listas são criadas usando colchetes ([]).
+# Acesso por Posição (Índice)
+# Para acessar um item específico na lista, você referencia o número da sua posição (índice) entre colchetes.
+  # A contagem de posições sempre começa no 0 (zero).
+print(frutas[0])
 
-## Índices e Acesso a Elementos
+# Modificação de Elementos
+# Como as listas são mutáveis, você pode alterar o valor de um item indicando a posição dele e fazendo a substituição.
 
-# O acesso a elementos em uma lista é feito através de seu índice (posição), que é um número inteiro.
+# Altera a primeira posição (índice 0) de "maçã"
+frutas [0] = "abacate"
+print(frutas) 
+# A lista agora é: ['abacate', 'banana', 'uva']
 
-# Início da Contagem: Os índices começam em zero (0). O primeiro elemento tem índice 0.
-# Último Elemento: Em uma lista de tamanho N, o último elemento tem índice N-1.
-# Índices Negativos: Permitem acessar elementos a partir do final da lista.
-  # -1 é o último elemento.
-  # -2 é o penúltimo, e assim por diante.
+## Adicionando Elementos
+# Você pode aumentar o tamanho da sua lista de duas maneiras principais:
+frutas = ["abacate", "banana", "maça", "pera", "uva", "morango", "laranja"]
+frutas.sort()
+print(frutas)
 
-Z = [7,8,9]
+## Removendo Elementos
+# Existem duas formas comuns de remover itens de uma lista:
+frutas.remove("uva") # list.remove("valor") - Remove o primeiro item que corresponde ao valor especificado.
+del frutas[0] # del list[posição] - Remove o item na posição (índice) determinada.
 
-## Tamanho e Fatiamento (Slicing)
+## Ordenando Listas (Sort e Sorted)
+# Para colocar uma lista em ordem (alfabética para strings ou numérica para números), você pode usar o método .sort() ou a função sorted().
+frutas.sort() # list.sort() - Modifica a lista original (in-place).
+legumes_ordenados = sorted(legumes) # sorted(list) - Cria e retorna uma nova lista ordenada, sem alterar a lista original.
+sorted(numeros, reverse=True) # Ordem Decrescente - Use o argumento reverse=True com sorted().
 
-### Tamanho da Lista
-# A função len() retorna o número de elementos contidos na lista.
-  # Uso: len(L)
-  # Importante: O valor retornado por len(L) não pode ser usado como índice diretamente, mas é útil para definir o limite em laços de repetição (ex: while x < len(L):).
+## Funções de Análise Rápida (Max e Min)
+# As funções max() e min() são úteis para encontrar o maior e o menor elemento de uma lista:
+  ## Com números: Retorna o maior e o menor valor numérico, respectivamente.
+  # Exemplo: max([1, 5, 35]) retorna 35.
+  ## Com números: Retorna o maior e o menor valor numérico, respectivamente.
+  ## Com strings: Retorna o elemento que seria o último (max) ou o primeiro (min) em ordem alfabética.
+  # Exemplo: max(["abacate", "uva"]) retorna "uva".
 
-### Fatiamento (Slicing)
-# O fatiamento permite que você acesse apenas uma parte (ou "fatia") da lista.
-# Sintaxe: Lista[início : fim].
-  ## O número à esquerda (início) indica a posição de início da fatia.
-  ## O número à direita (fim) indica a posição de fim, mas o elemento nesta posição não é incluído (intervalo aberto).
-# Omissão:
-  # L[:2] - Vai do início até o índice 2 (não incluso).
-  # L[1:] - Vai do índice 1 até o final da lista.
-  # L[:] - Cria uma cópia rasa (independente) de todos os elementos da lista.
+frutas = ["abacate", "banana", "maça", "pera", "uva"]
+maior_fruta = max(frutas)
+print(maior_fruta)
 
-## Modificação da Estrutura da Lista (Adição e Remoção)
-
-# Adição de Elementos 
-  ## append() - L.append(n) - Adiciona um único elemento ao final da lista.
-  ## + (concatenação) - L = L + [1] - Concatena duas listas, criando uma nova lista.
-## extend() - L.extend([3, 4, 5]) - Adiciona elementos de outra lista ao final da lista, "estendendo-a".
-
-## Remoção de Elementos
-# A instrução del é usada para remover elementos.
-  # del L[índice] - Remove o elemento na posição especificada. Os índices são reorganizados após a remoção.
-  # del L[fatia] - Remove uma fatia inteira de elementos (ex: del L[1:99]).
-  # L.pop(índice) - Retorna o valor do elemento e o remove da lista. Se nenhum índice for passado, ele remove o último elemento (comportamento de Pilha).
-
-## Listas dentro de Listas
-# Listas podem conter elementos de tipos diferentes, e isso inclui outras listas. Essa estrutura é conhecida como Lista de Listas e é útil para representar dados mais complexos (como matrizes ou registros).
-# Acesso: Para acessar um elemento dentro de uma lista interna, você usa um segundo índice.
-compras = [["maçã", 10, 0.30]]
-print(compras[0][2])
-
-## Listas como Estruturas de Dados Abstratas
-# Listas podem simular estruturas de dados mais complexas ao seguir regras específicas para inserção e remoção de elementos:
+numeros = [1,5,6,9,18,35]
+numero_maior = max(numeros)
+print(numero_maior)
+#OU
+print(f'{min(numeros)}')
