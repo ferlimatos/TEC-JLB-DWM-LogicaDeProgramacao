@@ -1,0 +1,1 @@
+# Sistema de notas escolares: receba a média do aluno e informe se foi aprovado, reprovado ou em recuperação.

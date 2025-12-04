@@ -1,0 +1,1 @@
+# Jogo de adivinhação: o programa escolhe um número secreto e o usuário tenta adivinhar.

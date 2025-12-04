@@ -1,0 +1,1 @@
+# Tabuada automática: o usuário digita um número e o programa mostra a tabuada completa.
