@@ -1,0 +1,21 @@
+📘 Exercícios de Fixação – Listas em Python
+🔹 1. Acessando e Modificando Elementos
+1. 	Crie uma lista com os números . Acesse o terceiro elemento e imprima-o.
+2. 	Dada a lista , substitua  por  e imprima a lista.
+3. 	Crie uma lista com 5 nomes. Peça ao usuário para digitar um índice e mostre o nome correspondente.
+4. 	Dada a lista , multiplique o primeiro elemento por 10 e atualize a lista.
+5. 	Crie uma lista com 4 cores. Troque a última cor por  e imprima a lista atualizada.
+
+🔹 2. Removendo Elementos
+- Crie uma lista [1, 2, 3, 4, 5]. Use pop() para remover o último elemento e imprima a lista.
+- Dada a lista ["cachorro", "gato", "peixe", "pássaro"], remova "peixe" usando remove().
+- Crie uma lista com 6 números. Remova o elemento da posição 2 usando del.
+- Dada a lista [100, 200, 300, 400], remova todos os elementos usando clear() e imprima a lista.
+- Crie uma lista com 5 frutas. Peça ao usuário para digitar uma fruta e remova-a da lista (se existir).
+
+🔹 3. Funções de Análise Rápida (Max e Min)
+- Crie uma lista [5, 10, 15, 20]. Use max() para encontrar o maior número.
+- Dada a lista [3, 7, 2, 9, 4], use min() para encontrar o menor número.
+- Crie uma lista com 8 números aleatórios (entre 1 e 100). Mostre o maior e o menor valor.
+- Dada a lista [12, 45, 23, 67, 34], imprima a diferença entre o maior e o menor número.
+- Crie uma lista com notas de alunos [7.5, 8.0, 6.3, 9.1, 5.8]. Mostre a maior e a menor nota.
