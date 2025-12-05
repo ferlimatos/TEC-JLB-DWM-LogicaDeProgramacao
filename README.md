@@ -19,7 +19,8 @@ A disciplina abrange os fundamentos essenciais para qualquer desenvolvedor, inde
 
 ## Linguagem Utilizada
 Todos os exercícios e projetos são implementados em Python (versão 3).
-https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 
 ## Estrutura do Repositório
 O repositório está organizado para refletir a progressão do curso.
