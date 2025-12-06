@@ -1,9 +1,9 @@
 # Exercício 4
 
-# Por que o for não é o laço ideal para situações de repetição com número desconhecido de vezes?
+# Por que não podemos usar um loop for para ler valores até que o usuário decida parar?
 
 ===================================
 
 Minha resposta:
 
-O for pressupõe um número limitado de repetições ou iterações (baseado em uma sequência ou intervalo definido). Em situações onde o número de repetições é desconhecido ou depende de uma condição externa para parar, o laço while seria o mais adequado.
+Não podemos usar um loop for para ler valores até o usuário decidir parar porque ele exige um número de repetições definido. Nesse caso, o loop adequado é o while, que funciona com uma condição.
