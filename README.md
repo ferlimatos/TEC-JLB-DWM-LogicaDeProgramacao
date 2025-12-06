@@ -4,6 +4,12 @@ Este repositório serve como um caderno digital e portfólio para os exercícios
 
 ## Mini-projetos
 Estes projetos foram desenvolvidos para aplicar os conceitos de variáveis, estruturas de controle (if/elif/else, for, while), e listas na prática.
+- [Calculadores Simples](/projetos-práticos/calculadora-simples.py)
+- [Conversor de Temperatura](/projetos-práticos/conversor-temperatura.py) 
+- [Jogo de Adivinhação](/projetos-práticos/jogo-de-adivinhacao.py)
+- [Par ou Impar](/projetos-práticos/par-ou-impar.py)
+- [Sistemas de Notas Escolares](/projetos-práticos/sistemas-notas-escolares.py)
+- [Tabuata Automática](/projetos-práticos/tabuada-automatica.py)
 
 ## Sobre a Disciplina
 A disciplina abrange os fundamentos essenciais para qualquer desenvolvedor, independentemente da linguagem de programação. Os tópicos principais incluem:

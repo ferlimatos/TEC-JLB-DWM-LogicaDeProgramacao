@@ -1,7 +1,7 @@
 temperatura = float(input("Informe uma temperatura: "))
 escala = input("Para qual escala você deseja conventer? De Celsius para Fahrenheit ou de Fahrenheit para Celsius? ")
 
-escala = escala.lower()
+escala = escala.strip().lower()
 
 if escala == "celsius para fahrenheit":
   fahrenheit = temperatura * 9/5 + 32
