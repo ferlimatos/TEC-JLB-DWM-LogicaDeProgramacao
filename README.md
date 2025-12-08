@@ -11,6 +11,13 @@ Estes projetos foram desenvolvidos para aplicar os conceitos de variáveis, estr
 - [Sistemas de Notas Escolares](/projetos-práticos/sistemas-notas-escolares.py)
 - [Tabuata Automática](/projetos-práticos/tabuada-automatica.py)
 
+# Pasta: lista-exercicios-especiais 
+**Esta pasta contém exercícios de programação que não foram solicitados ou resolvidos em sala de aula, nem fazem parte do cronograma oficial de tarefas.**
+
+O objetivo desta seção é funcionar como um caderno de prática complementar para reforçar os conceitos de Algoritmos e Lógica de Programação.
+
+Os exercícios foram gerados a partir dos tópicos ensinados na disciplina, como Variáveis, Estruturas de Controle (if/else, for, while) e Listas, permitindo a prática e a fixação mais profunda da matéria.
+
 ## Sobre a Disciplina
 A disciplina abrange os fundamentos essenciais para qualquer desenvolvedor, independentemente da linguagem de programação. Os tópicos principais incluem:
 
